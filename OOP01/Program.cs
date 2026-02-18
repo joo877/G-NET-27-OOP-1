@@ -32,6 +32,18 @@
              
              */
             #endregion
+
+            #region Q3
+            /*
+            1- create new project with type (class library ) , create  datatypes in this project which you want to use in another project
+            2- make sure access modifire of the datatypes is public to be able to use it in another project. (by defualt internal)
+            3- build it to generate dll file. 
+            4- create new project with type (console application ) and add reference to the first project (class library ) to use its datatypes in this project.
+            5- must import the namespace of calss library project in console application project to be able to use its datatypes,
+            by using (using (namespaceName of   calss library ); ) at the top of the console application project.
+             
+             */
+            #endregion
             #endregion
         }
     }
