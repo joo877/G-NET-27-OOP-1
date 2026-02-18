@@ -19,6 +19,19 @@
 
              */
             #endregion
+            #region Q2
+            /*
+             public                                              Vs                             private
+            1. accessible from anywhere in the program.                            1. accessible only where it is defined.
+                                                                 EX:
+             class MyClass{                                                           calss MyClass{
+                                                                                        
+            public int slalary;                                                    private int salary ;                                        
+            can be accessed from anywhere in the program                         can only be accessed within the MyClass class.
+            }                                                                     }
+             
+             */
+            #endregion
             #endregion
         }
     }
