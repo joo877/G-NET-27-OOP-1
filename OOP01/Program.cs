@@ -44,6 +44,17 @@
              
              */
             #endregion
+            #region Q4
+            /*
+             A Class Library is a separate project that contains reusable classes,
+            but has no Main method and cannot run on its own. It compiles into a .dll file 
+            class library is used to create reusable code that can be shared across multiple projects. (conseder toolbox)
+             
+            make code more organized and reusable, and it allows you to share code across multiple projects without duplicating it.
+            if you modify the code in the class library, you only need to update it in one place, 
+            and all projects that reference it will automatically use the updated version when they are recompiled. (Maintenance )
+             */
+            #endregion
             #endregion
         }
     }
