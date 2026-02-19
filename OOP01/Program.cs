@@ -1,4 +1,6 @@
-﻿namespace OOP01
+﻿using System.Diagnostics.Metrics;
+
+namespace OOP01
 {
     internal class Program
     {
@@ -55,6 +57,56 @@
             and all projects that reference it will automatically use the updated version when they are recompiled. (Maintenance )
              */
             #endregion
+            #endregion
+
+            #region part02
+            //Console.Write("Enter Movie Name: ");
+            //string movieNameInput = Console.ReadLine();
+
+            //Console.Write("Enter Ticket Type (0 = Standard , 1 = VIP , 2 = IMAX ):");
+            //Type Ticket_type_input = (Type)int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Seat Row (A, B, C...): ");
+            //char seatRowInput = Console.ReadKey().KeyChar;
+            //Console.WriteLine();
+            //Console.Write("Enter Seat Number:");
+            //int seatNumberInput = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Price:");
+            //int priceInput = int.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Discount Amount: ");
+            //double discountAmountInput = double.Parse(Console.ReadLine());
+
+            //Seat seat = new Seat(seatRowInput, seatNumberInput);
+
+            //Console.WriteLine();
+            //Console.WriteLine(" ::::::::  Ticket Info  ::::::::  ");
+
+            //Ticket ticket01 = new Ticket(movieNameInput, Ticket_type_input, seat, priceInput);
+
+
+            //ticket01.PrintTicket();
+
+            //Console.WriteLine();
+            //Console.WriteLine(":::::: After Discount :::::");
+
+            //ticket01.ApplyDiscount(discountAmountInput);
+
+            //////////////////////////////////////////////////////////////////////////
+
+            //Console.Write("Enter Movie Name: ");
+            //string movieNameInput = Console.ReadLine();
+
+            //Ticket ticket02 = new Ticket(movieNameInput);
+
+            //Console.WriteLine();
+            //Console.WriteLine("::::::::  Ticket Info  ::::::::  ");
+            //ticket02.PrintTicket();
+
+
+
+
             #endregion
         }
     }
